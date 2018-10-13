@@ -11,7 +11,7 @@
   <packaging>war</packaging>
   
   <properties>
-  	<java-version>1.7</java-version>
+  	<java-version>1.8</java-version>
   	<project.build.sourceEncoding>UTF-8s</project.build.sourceEncoding>
   	<webapp-folder>src/main/webapp</webapp-folder>
   	<springframework-version>4.2.0.RELEASE</springframework-version>
@@ -72,6 +72,13 @@
   		<artifactId>fastjson</artifactId>
   		<version>1.2.12</version>
   	</dependency>
+  	
+  	<!--  -->
+  	<dependency>
+		<groupId>org.apache.maven.plugins</groupId>
+		<artifactId>maven-compiler-plugin</artifactId>
+		<version>3.1</version>
+	</dependency>
   	
   	<!-- 其它jar包 -->
   	<dependency>
