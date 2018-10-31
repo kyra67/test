@@ -2,8 +2,11 @@
 <beans xmlns="http://www.springframework.org/schema/beans"
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
 	xmlns:mvc="http://www.springframework.org/schema/mvc"
+	xmlns:context="http://www.springframework.org/schema/context"
 	xsi:schemaLocation="http://www.springframework.org/schema/beans 
 	http://www.springframework.org/schema/beans/spring-beans.xsd
+	http://www.springframework.org/schema/context
+	http://www.springframework.org/schema/context/spring-context.xsd
     http://www.springframework.org/schema/mvc
     http://www.springframework.org/schema/mvc/spring-mvc.xsd">
 
@@ -19,6 +22,12 @@
 				<value>UseBigDecimal</value>
 			</list>
 		</property>
+	</bean>
+	
+	<bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+		<!-- 配置jsp文件的前缀和后缀，在编写handler时可以简化书写 -->
+		<property name="prefix" value="/WEB-INF/jsp/" />
+		<property name="suffix" value=".jsp" />
 	</bean>
 
 	<mvc:annotation-driven>
@@ -40,6 +49,20 @@
 		</mvc:message-converters>
 	</mvc:annotation-driven>
 
+	<context:component-scan base-package="com.test" use-default-filters="false">
+		<context:include-filter type="annotation" expression="org.springframework.stereotype.Controller" />
+	</context:component-scan>
+	<!-- mvc:resources mapping="/jsp/**" location="/WEB-INF/jsp/" / -->
 	<mvc:resources mapping="/resources/**" location="/resources/" />
+	
+	<mvc:interceptors>
+		<mvc:interceptor>
+			<mvc:mapping path="/**" />
+			<mvc:exclude-mapping path="/" />
+			<mvc:exclude-mapping path="/login" />
+			<mvc:exclude-mapping path="/resources/**" />
+			<bean class="com.test.interceptor.DemoInterceptor" />
+		</mvc:interceptor>
+	</mvc:interceptors>
 	
 </beans>

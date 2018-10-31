@@ -1,0 +1,587 @@
+INFO 2018-10-20 21:46:32.546 ContainerBackgroundProcessor[StandardEngine[Catalina]] [org.springframework.web.context.support.XmlWebApplicationContext] - Closing WebApplicationContext for namespace 'Spring MVC Dispatcher Servlet-servlet': startup date [Fri Oct 19 23:45:52 CST 2018]; parent: Root WebApplicationContext
+INFO 2018-10-20 21:46:32.546 ContainerBackgroundProcessor[StandardEngine[Catalina]] [org.springframework.web.context.support.XmlWebApplicationContext] - Closing Root WebApplicationContext: startup date [Fri Oct 19 23:45:52 CST 2018]; root of context hierarchy
+INFO 2018-10-20 21:48:25.875 localhost-startStop-1 [org.springframework.web.context.ContextLoader] - Root WebApplicationContext: initialization started
+INFO 2018-10-20 21:48:26.234 localhost-startStop-1 [org.springframework.web.context.support.XmlWebApplicationContext] - Refreshing Root WebApplicationContext: startup date [Sat Oct 20 21:48:26 CST 2018]; root of context hierarchy
+INFO 2018-10-20 21:48:26.328 localhost-startStop-1 [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [config/spring-core.xml]
+INFO 2018-10-20 21:48:27.171 localhost-startStop-1 [org.springframework.web.context.ContextLoader] - Root WebApplicationContext: initialization completed in 1296 ms
+INFO 2018-10-20 21:48:27.484 localhost-startStop-1 [org.springframework.web.servlet.DispatcherServlet] - FrameworkServlet 'Spring MVC Dispatcher Servlet': initialization started
+INFO 2018-10-20 21:48:27.484 localhost-startStop-1 [org.springframework.web.context.support.XmlWebApplicationContext] - Refreshing WebApplicationContext for namespace 'Spring MVC Dispatcher Servlet-servlet': startup date [Sat Oct 20 21:48:27 CST 2018]; parent: Root WebApplicationContext
+INFO 2018-10-20 21:48:27.500 localhost-startStop-1 [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [config/spring-web.xml]
+INFO 2018-10-20 21:48:28.765 localhost-startStop-1 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] - Mapped "{[/login],methods=[POST]}" onto public java.lang.String com.test.controller.LoginController.login(com.test.info.LoginInfo,javax.servlet.http.HttpSession)
+INFO 2018-10-20 21:48:28.765 localhost-startStop-1 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] - Mapped "{[/],methods=[GET]}" onto public java.lang.String com.test.controller.LoginController.login(java.util.Map<java.lang.String, java.lang.Object>)
+INFO 2018-10-20 21:48:28.765 localhost-startStop-1 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] - Mapped "{[/logout],methods=[GET]}" onto public java.lang.String com.test.controller.LoginController.logout(javax.servlet.http.HttpSession)
+INFO 2018-10-20 21:48:28.765 localhost-startStop-1 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] - Mapped "{[/welcome],methods=[GET]}" onto public java.lang.String com.test.controller.LoginController.welcome(javax.servlet.http.HttpSession,java.util.Map<java.lang.String, java.lang.Object>)
+INFO 2018-10-20 21:48:28.765 localhost-startStop-1 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] - Mapped "{[/list],methods=[GET]}" onto public java.lang.String com.test.controller.DemoController.list(java.util.Map<java.lang.String, java.lang.Object>)
+INFO 2018-10-20 21:48:29.156 localhost-startStop-1 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter] - Looking for @ControllerAdvice: WebApplicationContext for namespace 'Spring MVC Dispatcher Servlet-servlet': startup date [Sat Oct 20 21:48:27 CST 2018]; parent: Root WebApplicationContext
+INFO 2018-10-20 21:48:29.296 localhost-startStop-1 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter] - Looking for @ControllerAdvice: WebApplicationContext for namespace 'Spring MVC Dispatcher Servlet-servlet': startup date [Sat Oct 20 21:48:27 CST 2018]; parent: Root WebApplicationContext
+INFO 2018-10-20 21:48:29.515 localhost-startStop-1 [org.springframework.web.servlet.handler.SimpleUrlHandlerMapping] - Mapped URL path [/resources/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+INFO 2018-10-20 21:48:29.656 localhost-startStop-1 [org.springframework.web.servlet.DispatcherServlet] - FrameworkServlet 'Spring MVC Dispatcher Servlet': initialization completed in 2172 ms
+INFO 2018-10-20 21:49:02.718 http-bio-8080-exec-4 [com.test.controller.LoginController] - this is a login page
+INFO 2018-10-20 21:51:10.687 localhost-startStop-2 [org.springframework.web.context.support.XmlWebApplicationContext] - Closing WebApplicationContext for namespace 'Spring MVC Dispatcher Servlet-servlet': startup date [Sat Oct 20 21:48:27 CST 2018]; parent: Root WebApplicationContext
+INFO 2018-10-20 21:51:10.734 localhost-startStop-2 [org.springframework.web.context.support.XmlWebApplicationContext] - Closing Root WebApplicationContext: startup date [Sat Oct 20 21:48:26 CST 2018]; root of context hierarchy
+INFO 2018-10-20 21:53:04.750 localhost-startStop-1 [org.springframework.web.context.ContextLoader] - Root WebApplicationContext: initialization started
+INFO 2018-10-20 21:53:05.031 localhost-startStop-1 [org.springframework.web.context.support.XmlWebApplicationContext] - Refreshing Root WebApplicationContext: startup date [Sat Oct 20 21:53:05 CST 2018]; root of context hierarchy
+INFO 2018-10-20 21:53:05.125 localhost-startStop-1 [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [config/spring-core.xml]
+INFO 2018-10-20 21:53:05.937 localhost-startStop-1 [org.springframework.web.context.ContextLoader] - Root WebApplicationContext: initialization completed in 1187 ms
+INFO 2018-10-20 21:53:06.171 localhost-startStop-1 [org.springframework.web.servlet.DispatcherServlet] - FrameworkServlet 'Spring MVC Dispatcher Servlet': initialization started
+INFO 2018-10-20 21:53:06.187 localhost-startStop-1 [org.springframework.web.context.support.XmlWebApplicationContext] - Refreshing WebApplicationContext for namespace 'Spring MVC Dispatcher Servlet-servlet': startup date [Sat Oct 20 21:53:06 CST 2018]; parent: Root WebApplicationContext
+INFO 2018-10-20 21:53:06.187 localhost-startStop-1 [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [config/spring-web.xml]
+INFO 2018-10-20 21:53:07.406 localhost-startStop-1 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] - Mapped "{[/login],methods=[POST]}" onto public java.lang.String com.test.controller.LoginController.login(com.test.info.LoginInfo,javax.servlet.http.HttpSession)
+INFO 2018-10-20 21:53:07.421 localhost-startStop-1 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] - Mapped "{[/],methods=[GET]}" onto public java.lang.String com.test.controller.LoginController.login(java.util.Map<java.lang.String, java.lang.Object>)
+INFO 2018-10-20 21:53:07.421 localhost-startStop-1 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] - Mapped "{[/logout],methods=[GET]}" onto public java.lang.String com.test.controller.LoginController.logout(javax.servlet.http.HttpSession)
+INFO 2018-10-20 21:53:07.421 localhost-startStop-1 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] - Mapped "{[/welcome],methods=[GET]}" onto public java.lang.String com.test.controller.LoginController.welcome(javax.servlet.http.HttpSession,java.util.Map<java.lang.String, java.lang.Object>)
+INFO 2018-10-20 21:53:07.421 localhost-startStop-1 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] - Mapped "{[/list],methods=[GET]}" onto public java.lang.String com.test.controller.DemoController.list(java.util.Map<java.lang.String, java.lang.Object>)
+INFO 2018-10-20 21:53:07.765 localhost-startStop-1 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter] - Looking for @ControllerAdvice: WebApplicationContext for namespace 'Spring MVC Dispatcher Servlet-servlet': startup date [Sat Oct 20 21:53:06 CST 2018]; parent: Root WebApplicationContext
+INFO 2018-10-20 21:53:07.906 localhost-startStop-1 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter] - Looking for @ControllerAdvice: WebApplicationContext for namespace 'Spring MVC Dispatcher Servlet-servlet': startup date [Sat Oct 20 21:53:06 CST 2018]; parent: Root WebApplicationContext
+INFO 2018-10-20 21:53:08.140 localhost-startStop-1 [org.springframework.web.servlet.handler.SimpleUrlHandlerMapping] - Mapped URL path [/resources/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+INFO 2018-10-20 21:53:08.281 localhost-startStop-1 [org.springframework.web.servlet.DispatcherServlet] - FrameworkServlet 'Spring MVC Dispatcher Servlet': initialization completed in 2110 ms
+INFO 2018-10-20 21:56:18.578 localhost-startStop-2 [org.springframework.web.context.support.XmlWebApplicationContext] - Closing WebApplicationContext for namespace 'Spring MVC Dispatcher Servlet-servlet': startup date [Sat Oct 20 21:53:06 CST 2018]; parent: Root WebApplicationContext
+INFO 2018-10-20 21:56:18.593 localhost-startStop-2 [org.springframework.web.context.support.XmlWebApplicationContext] - Closing Root WebApplicationContext: startup date [Sat Oct 20 21:53:05 CST 2018]; root of context hierarchy
+INFO 2018-10-20 21:57:56.718 localhost-startStop-1 [org.springframework.web.context.ContextLoader] - Root WebApplicationContext: initialization started
+INFO 2018-10-20 21:57:56.984 localhost-startStop-1 [org.springframework.web.context.support.XmlWebApplicationContext] - Refreshing Root WebApplicationContext: startup date [Sat Oct 20 21:57:56 CST 2018]; root of context hierarchy
+INFO 2018-10-20 21:57:57.093 localhost-startStop-1 [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [config/spring-core.xml]
+INFO 2018-10-20 21:57:57.859 localhost-startStop-1 [org.springframework.web.context.ContextLoader] - Root WebApplicationContext: initialization completed in 1141 ms
+INFO 2018-10-20 21:57:58.109 localhost-startStop-1 [org.springframework.web.servlet.DispatcherServlet] - FrameworkServlet 'Spring MVC Dispatcher Servlet': initialization started
+INFO 2018-10-20 21:57:58.109 localhost-startStop-1 [org.springframework.web.context.support.XmlWebApplicationContext] - Refreshing WebApplicationContext for namespace 'Spring MVC Dispatcher Servlet-servlet': startup date [Sat Oct 20 21:57:58 CST 2018]; parent: Root WebApplicationContext
+INFO 2018-10-20 21:57:58.109 localhost-startStop-1 [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [config/spring-web.xml]
+INFO 2018-10-20 21:57:59.296 localhost-startStop-1 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] - Mapped "{[/login],methods=[POST]}" onto public java.lang.String com.test.controller.LoginController.login(com.test.info.LoginInfo,javax.servlet.http.HttpSession)
+INFO 2018-10-20 21:57:59.296 localhost-startStop-1 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] - Mapped "{[/],methods=[GET]}" onto public java.lang.String com.test.controller.LoginController.login(java.util.Map<java.lang.String, java.lang.Object>)
+INFO 2018-10-20 21:57:59.296 localhost-startStop-1 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] - Mapped "{[/logout],methods=[GET]}" onto public java.lang.String com.test.controller.LoginController.logout(javax.servlet.http.HttpSession)
+INFO 2018-10-20 21:57:59.312 localhost-startStop-1 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] - Mapped "{[/welcome],methods=[GET]}" onto public java.lang.String com.test.controller.LoginController.welcome(javax.servlet.http.HttpSession,java.util.Map<java.lang.String, java.lang.Object>)
+INFO 2018-10-20 21:57:59.312 localhost-startStop-1 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] - Mapped "{[/list],methods=[GET]}" onto public java.lang.String com.test.controller.DemoController.list(java.util.Map<java.lang.String, java.lang.Object>)
+INFO 2018-10-20 21:57:59.687 localhost-startStop-1 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter] - Looking for @ControllerAdvice: WebApplicationContext for namespace 'Spring MVC Dispatcher Servlet-servlet': startup date [Sat Oct 20 21:57:58 CST 2018]; parent: Root WebApplicationContext
+INFO 2018-10-20 21:57:59.843 localhost-startStop-1 [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter] - Looking for @ControllerAdvice: WebApplicationContext for namespace 'Spring MVC Dispatcher Servlet-servlet': startup date [Sat Oct 20 21:57:58 CST 2018]; parent: Root WebApplicationContext
+INFO 2018-10-20 21:58:00.156 localhost-startStop-1 [org.springframework.web.servlet.handler.SimpleUrlHandlerMapping] - Mapped URL path [/resources/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+INFO 2018-10-20 21:58:00.359 localhost-startStop-1 [org.springframework.web.servlet.DispatcherServlet] - FrameworkServlet 'Spring MVC Dispatcher Servlet': initialization completed in 2250 ms
+INFO 2018-10-20 23:29:52.000 localhost-startStop-2 [org.springframework.web.context.support.XmlWebApplicationContext] - Closing WebApplicationContext for namespace 'Spring MVC Dispatcher Servlet-servlet': startup date [Sat Oct 20 21:57:58 CST 2018]; parent: Root WebApplicationContext
+INFO 2018-10-20 23:29:52.031 localhost-startStop-2 [org.springframework.web.context.support.XmlWebApplicationContext] - Closing Root WebApplicationContext: startup date [Sat Oct 20 21:57:56 CST 2018]; root of context hierarchy
+INFO 2018-10-20 23:35:03.656 localhost-startStop-1 [org.springframework.web.context.ContextLoader] - Root WebApplicationContext: initialization started
+INFO 2018-10-20 23:35:03.921 localhost-startStop-1 [org.springframework.web.context.support.XmlWebApplicationContext] - Refreshing Root WebApplicationContext: startup date [Sat Oct 20 23:35:03 CST 2018]; root of context hierarchy
+INFO 2018-10-20 23:35:04.015 localhost-startStop-1 [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [config/spring-core.xml]
+WARN 2018-10-20 23:35:05.312 localhost-startStop-1 [org.springframework.web.context.support.XmlWebApplicationContext] - Exception encountered during context initialization - cancelling refresh attempt
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'demoService' defined in file [F:\workspace\project1\target\project1\WEB-INF\classes\com\test\service\DemoService.class]: Initialization of bean failed; nested exception is java.lang.IllegalArgumentException: Pointcut is not well-formed: expecting ')' at character position 0
+execution(* com.test.service..*.*(..)
+^
+
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:553)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:482)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:305)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:301)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:196)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:772)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:834)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:537)
+	at org.springframework.web.context.ContextLoader.configureAndRefreshWebApplicationContext(ContextLoader.java:446)
+	at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:328)
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:107)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:5118)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5641)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:145)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:1015)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:991)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:652)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:712)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:2002)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.IllegalArgumentException: Pointcut is not well-formed: expecting ')' at character position 0
+execution(* com.test.service..*.*(..)
+^
+
+	at org.aspectj.weaver.tools.PointcutParser.resolvePointcutExpression(PointcutParser.java:316)
+	at org.aspectj.weaver.tools.PointcutParser.parsePointcutExpression(PointcutParser.java:294)
+	at org.springframework.aop.aspectj.AspectJExpressionPointcut.buildPointcutExpression(AspectJExpressionPointcut.java:207)
+	at org.springframework.aop.aspectj.AspectJExpressionPointcut.checkReadyToMatch(AspectJExpressionPointcut.java:193)
+	at org.springframework.aop.aspectj.AspectJExpressionPointcut.getClassFilter(AspectJExpressionPointcut.java:170)
+	at org.springframework.aop.support.AopUtils.canApply(AopUtils.java:194)
+	at org.springframework.aop.support.AopUtils.canApply(AopUtils.java:248)
+	at org.springframework.aop.support.AopUtils.findAdvisorsThatCanApply(AopUtils.java:280)
+	at org.springframework.aop.framework.autoproxy.AbstractAdvisorAutoProxyCreator.findAdvisorsThatCanApply(AbstractAdvisorAutoProxyCreator.java:118)
+	at org.springframework.aop.framework.autoproxy.AbstractAdvisorAutoProxyCreator.findEligibleAdvisors(AbstractAdvisorAutoProxyCreator.java:88)
+	at org.springframework.aop.framework.autoproxy.AbstractAdvisorAutoProxyCreator.getAdvicesAndAdvisorsForBean(AbstractAdvisorAutoProxyCreator.java:69)
+	at org.springframework.aop.framework.autoproxy.AbstractAutoProxyCreator.wrapIfNecessary(AbstractAutoProxyCreator.java:330)
+	at org.springframework.aop.framework.autoproxy.AbstractAutoProxyCreator.postProcessAfterInitialization(AbstractAutoProxyCreator.java:293)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsAfterInitialization(AbstractAutowireCapableBeanFactory.java:422)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1583)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:545)
+	... 24 more
+ERROR 2018-10-20 23:35:05.328 localhost-startStop-1 [org.springframework.web.context.ContextLoader] - Context initialization failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'demoService' defined in file [F:\workspace\project1\target\project1\WEB-INF\classes\com\test\service\DemoService.class]: Initialization of bean failed; nested exception is java.lang.IllegalArgumentException: Pointcut is not well-formed: expecting ')' at character position 0
+execution(* com.test.service..*.*(..)
+^
+
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:553)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:482)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:305)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:301)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:196)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:772)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:834)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:537)
+	at org.springframework.web.context.ContextLoader.configureAndRefreshWebApplicationContext(ContextLoader.java:446)
+	at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:328)
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:107)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:5118)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5641)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:145)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:1015)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:991)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:652)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:712)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:2002)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.IllegalArgumentException: Pointcut is not well-formed: expecting ')' at character position 0
+execution(* com.test.service..*.*(..)
+^
+
+	at org.aspectj.weaver.tools.PointcutParser.resolvePointcutExpression(PointcutParser.java:316)
+	at org.aspectj.weaver.tools.PointcutParser.parsePointcutExpression(PointcutParser.java:294)
+	at org.springframework.aop.aspectj.AspectJExpressionPointcut.buildPointcutExpression(AspectJExpressionPointcut.java:207)
+	at org.springframework.aop.aspectj.AspectJExpressionPointcut.checkReadyToMatch(AspectJExpressionPointcut.java:193)
+	at org.springframework.aop.aspectj.AspectJExpressionPointcut.getClassFilter(AspectJExpressionPointcut.java:170)
+	at org.springframework.aop.support.AopUtils.canApply(AopUtils.java:194)
+	at org.springframework.aop.support.AopUtils.canApply(AopUtils.java:248)
+	at org.springframework.aop.support.AopUtils.findAdvisorsThatCanApply(AopUtils.java:280)
+	at org.springframework.aop.framework.autoproxy.AbstractAdvisorAutoProxyCreator.findAdvisorsThatCanApply(AbstractAdvisorAutoProxyCreator.java:118)
+	at org.springframework.aop.framework.autoproxy.AbstractAdvisorAutoProxyCreator.findEligibleAdvisors(AbstractAdvisorAutoProxyCreator.java:88)
+	at org.springframework.aop.framework.autoproxy.AbstractAdvisorAutoProxyCreator.getAdvicesAndAdvisorsForBean(AbstractAdvisorAutoProxyCreator.java:69)
+	at org.springframework.aop.framework.autoproxy.AbstractAutoProxyCreator.wrapIfNecessary(AbstractAutoProxyCreator.java:330)
+	at org.springframework.aop.framework.autoproxy.AbstractAutoProxyCreator.postProcessAfterInitialization(AbstractAutoProxyCreator.java:293)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsAfterInitialization(AbstractAutowireCapableBeanFactory.java:422)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1583)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:545)
+	... 24 more
+INFO 2018-10-20 23:38:02.406 ContainerBackgroundProcessor[StandardEngine[Catalina]] [org.springframework.web.context.ContextLoader] - Root WebApplicationContext: initialization started
+INFO 2018-10-20 23:38:03.000 ContainerBackgroundProcessor[StandardEngine[Catalina]] [org.springframework.web.context.support.XmlWebApplicationContext] - Refreshing Root WebApplicationContext: startup date [Sat Oct 20 23:38:03 CST 2018]; root of context hierarchy
+INFO 2018-10-20 23:38:03.281 ContainerBackgroundProcessor[StandardEngine[Catalina]] [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [config/spring-core.xml]
+WARN 2018-10-20 23:38:05.093 ContainerBackgroundProcessor[StandardEngine[Catalina]] [org.springframework.web.context.support.XmlWebApplicationContext] - Exception encountered during context initialization - cancelling refresh attempt
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'demoService' defined in file [F:\workspace\project1\target\project1\WEB-INF\classes\com\test\service\DemoService.class]: Initialization of bean failed; nested exception is java.lang.IllegalArgumentException: Pointcut is not well-formed: expecting ')' at character position 0
+execution(* com.test.service..*.*(..)
+^
+
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:553)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:482)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:305)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:301)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:196)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:772)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:834)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:537)
+	at org.springframework.web.context.ContextLoader.configureAndRefreshWebApplicationContext(ContextLoader.java:446)
+	at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:328)
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:107)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:5118)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5641)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:145)
+	at org.apache.catalina.startup.HostConfig.reload(HostConfig.java:1584)
+	at org.apache.catalina.startup.HostConfig.checkResources(HostConfig.java:1548)
+	at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1784)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:366)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:117)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:90)
+	at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1500)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1671)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1681)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1649)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.IllegalArgumentException: Pointcut is not well-formed: expecting ')' at character position 0
+execution(* com.test.service..*.*(..)
+^
+
+	at org.aspectj.weaver.tools.PointcutParser.resolvePointcutExpression(PointcutParser.java:316)
+	at org.aspectj.weaver.tools.PointcutParser.parsePointcutExpression(PointcutParser.java:294)
+	at org.springframework.aop.aspectj.AspectJExpressionPointcut.buildPointcutExpression(AspectJExpressionPointcut.java:207)
+	at org.springframework.aop.aspectj.AspectJExpressionPointcut.checkReadyToMatch(AspectJExpressionPointcut.java:193)
+	at org.springframework.aop.aspectj.AspectJExpressionPointcut.getClassFilter(AspectJExpressionPointcut.java:170)
+	at org.springframework.aop.support.AopUtils.canApply(AopUtils.java:194)
+	at org.springframework.aop.support.AopUtils.canApply(AopUtils.java:248)
+	at org.springframework.aop.support.AopUtils.findAdvisorsThatCanApply(AopUtils.java:280)
+	at org.springframework.aop.framework.autoproxy.AbstractAdvisorAutoProxyCreator.findAdvisorsThatCanApply(AbstractAdvisorAutoProxyCreator.java:118)
+	at org.springframework.aop.framework.autoproxy.AbstractAdvisorAutoProxyCreator.findEligibleAdvisors(AbstractAdvisorAutoProxyCreator.java:88)
+	at org.springframework.aop.framework.autoproxy.AbstractAdvisorAutoProxyCreator.getAdvicesAndAdvisorsForBean(AbstractAdvisorAutoProxyCreator.java:69)
+	at org.springframework.aop.framework.autoproxy.AbstractAutoProxyCreator.wrapIfNecessary(AbstractAutoProxyCreator.java:330)
+	at org.springframework.aop.framework.autoproxy.AbstractAutoProxyCreator.postProcessAfterInitialization(AbstractAutoProxyCreator.java:293)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsAfterInitialization(AbstractAutowireCapableBeanFactory.java:422)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1583)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:545)
+	... 25 more
+ERROR 2018-10-20 23:38:05.109 ContainerBackgroundProcessor[StandardEngine[Catalina]] [org.springframework.web.context.ContextLoader] - Context initialization failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'demoService' defined in file [F:\workspace\project1\target\project1\WEB-INF\classes\com\test\service\DemoService.class]: Initialization of bean failed; nested exception is java.lang.IllegalArgumentException: Pointcut is not well-formed: expecting ')' at character position 0
+execution(* com.test.service..*.*(..)
+^
+
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:553)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:482)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:305)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:301)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:196)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:772)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:834)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:537)
+	at org.springframework.web.context.ContextLoader.configureAndRefreshWebApplicationContext(ContextLoader.java:446)
+	at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:328)
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:107)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:5118)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5641)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:145)
+	at org.apache.catalina.startup.HostConfig.reload(HostConfig.java:1584)
+	at org.apache.catalina.startup.HostConfig.checkResources(HostConfig.java:1548)
+	at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1784)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:366)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:117)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:90)
+	at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1500)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1671)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1681)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1649)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.IllegalArgumentException: Pointcut is not well-formed: expecting ')' at character position 0
+execution(* com.test.service..*.*(..)
+^
+
+	at org.aspectj.weaver.tools.PointcutParser.resolvePointcutExpression(PointcutParser.java:316)
+	at org.aspectj.weaver.tools.PointcutParser.parsePointcutExpression(PointcutParser.java:294)
+	at org.springframework.aop.aspectj.AspectJExpressionPointcut.buildPointcutExpression(AspectJExpressionPointcut.java:207)
+	at org.springframework.aop.aspectj.AspectJExpressionPointcut.checkReadyToMatch(AspectJExpressionPointcut.java:193)
+	at org.springframework.aop.aspectj.AspectJExpressionPointcut.getClassFilter(AspectJExpressionPointcut.java:170)
+	at org.springframework.aop.support.AopUtils.canApply(AopUtils.java:194)
+	at org.springframework.aop.support.AopUtils.canApply(AopUtils.java:248)
+	at org.springframework.aop.support.AopUtils.findAdvisorsThatCanApply(AopUtils.java:280)
+	at org.springframework.aop.framework.autoproxy.AbstractAdvisorAutoProxyCreator.findAdvisorsThatCanApply(AbstractAdvisorAutoProxyCreator.java:118)
+	at org.springframework.aop.framework.autoproxy.AbstractAdvisorAutoProxyCreator.findEligibleAdvisors(AbstractAdvisorAutoProxyCreator.java:88)
+	at org.springframework.aop.framework.autoproxy.AbstractAdvisorAutoProxyCreator.getAdvicesAndAdvisorsForBean(AbstractAdvisorAutoProxyCreator.java:69)
+	at org.springframework.aop.framework.autoproxy.AbstractAutoProxyCreator.wrapIfNecessary(AbstractAutoProxyCreator.java:330)
+	at org.springframework.aop.framework.autoproxy.AbstractAutoProxyCreator.postProcessAfterInitialization(AbstractAutoProxyCreator.java:293)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsAfterInitialization(AbstractAutowireCapableBeanFactory.java:422)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1583)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:545)
+	... 25 more
+INFO 2018-10-20 23:38:07.906 localhost-startStop-1 [org.springframework.web.context.ContextLoader] - Root WebApplicationContext: initialization started
+INFO 2018-10-20 23:38:08.265 localhost-startStop-1 [org.springframework.web.context.support.XmlWebApplicationContext] - Refreshing Root WebApplicationContext: startup date [Sat Oct 20 23:38:08 CST 2018]; root of context hierarchy
+INFO 2018-10-20 23:38:08.421 localhost-startStop-1 [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [config/spring-core.xml]
+INFO 2018-10-20 23:39:30.968 localhost-startStop-1 [org.springframework.web.context.ContextLoader] - Root WebApplicationContext: initialization started
+INFO 2018-10-20 23:39:31.218 localhost-startStop-1 [org.springframework.web.context.support.XmlWebApplicationContext] - Refreshing Root WebApplicationContext: startup date [Sat Oct 20 23:39:31 CST 2018]; root of context hierarchy
+INFO 2018-10-20 23:39:31.312 localhost-startStop-1 [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [config/spring-core.xml]
+WARN 2018-10-20 23:39:32.531 localhost-startStop-1 [org.springframework.web.context.support.XmlWebApplicationContext] - Exception encountered during context initialization - cancelling refresh attempt
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'demoService' defined in file [F:\workspace\project1\target\project1\WEB-INF\classes\com\test\service\DemoService.class]: Initialization of bean failed; nested exception is java.lang.IllegalArgumentException: Pointcut is not well-formed: expecting ')' at character position 0
+execution(* com.test.service..*.*(..)
+^
+
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:553)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:482)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:305)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:301)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:196)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:772)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:834)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:537)
+	at org.springframework.web.context.ContextLoader.configureAndRefreshWebApplicationContext(ContextLoader.java:446)
+	at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:328)
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:107)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:5118)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5641)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:145)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:1015)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:991)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:652)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:712)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:2002)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.IllegalArgumentException: Pointcut is not well-formed: expecting ')' at character position 0
+execution(* com.test.service..*.*(..)
+^
+
+	at org.aspectj.weaver.tools.PointcutParser.resolvePointcutExpression(PointcutParser.java:316)
+	at org.aspectj.weaver.tools.PointcutParser.parsePointcutExpression(PointcutParser.java:294)
+	at org.springframework.aop.aspectj.AspectJExpressionPointcut.buildPointcutExpression(AspectJExpressionPointcut.java:207)
+	at org.springframework.aop.aspectj.AspectJExpressionPointcut.checkReadyToMatch(AspectJExpressionPointcut.java:193)
+	at org.springframework.aop.aspectj.AspectJExpressionPointcut.getClassFilter(AspectJExpressionPointcut.java:170)
+	at org.springframework.aop.support.AopUtils.canApply(AopUtils.java:194)
+	at org.springframework.aop.support.AopUtils.canApply(AopUtils.java:248)
+	at org.springframework.aop.support.AopUtils.findAdvisorsThatCanApply(AopUtils.java:280)
+	at org.springframework.aop.framework.autoproxy.AbstractAdvisorAutoProxyCreator.findAdvisorsThatCanApply(AbstractAdvisorAutoProxyCreator.java:118)
+	at org.springframework.aop.framework.autoproxy.AbstractAdvisorAutoProxyCreator.findEligibleAdvisors(AbstractAdvisorAutoProxyCreator.java:88)
+	at org.springframework.aop.framework.autoproxy.AbstractAdvisorAutoProxyCreator.getAdvicesAndAdvisorsForBean(AbstractAdvisorAutoProxyCreator.java:69)
+	at org.springframework.aop.framework.autoproxy.AbstractAutoProxyCreator.wrapIfNecessary(AbstractAutoProxyCreator.java:330)
+	at org.springframework.aop.framework.autoproxy.AbstractAutoProxyCreator.postProcessAfterInitialization(AbstractAutoProxyCreator.java:293)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsAfterInitialization(AbstractAutowireCapableBeanFactory.java:422)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1583)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:545)
+	... 24 more
+ERROR 2018-10-20 23:39:32.546 localhost-startStop-1 [org.springframework.web.context.ContextLoader] - Context initialization failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'demoService' defined in file [F:\workspace\project1\target\project1\WEB-INF\classes\com\test\service\DemoService.class]: Initialization of bean failed; nested exception is java.lang.IllegalArgumentException: Pointcut is not well-formed: expecting ')' at character position 0
+execution(* com.test.service..*.*(..)
+^
+
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:553)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:482)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:305)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:301)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:196)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:772)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:834)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:537)
+	at org.springframework.web.context.ContextLoader.configureAndRefreshWebApplicationContext(ContextLoader.java:446)
+	at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:328)
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:107)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:5118)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5641)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:145)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:1015)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:991)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:652)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:712)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:2002)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.IllegalArgumentException: Pointcut is not well-formed: expecting ')' at character position 0
+execution(* com.test.service..*.*(..)
+^
+
+	at org.aspectj.weaver.tools.PointcutParser.resolvePointcutExpression(PointcutParser.java:316)
+	at org.aspectj.weaver.tools.PointcutParser.parsePointcutExpression(PointcutParser.java:294)
+	at org.springframework.aop.aspectj.AspectJExpressionPointcut.buildPointcutExpression(AspectJExpressionPointcut.java:207)
+	at org.springframework.aop.aspectj.AspectJExpressionPointcut.checkReadyToMatch(AspectJExpressionPointcut.java:193)
+	at org.springframework.aop.aspectj.AspectJExpressionPointcut.getClassFilter(AspectJExpressionPointcut.java:170)
+	at org.springframework.aop.support.AopUtils.canApply(AopUtils.java:194)
+	at org.springframework.aop.support.AopUtils.canApply(AopUtils.java:248)
+	at org.springframework.aop.support.AopUtils.findAdvisorsThatCanApply(AopUtils.java:280)
+	at org.springframework.aop.framework.autoproxy.AbstractAdvisorAutoProxyCreator.findAdvisorsThatCanApply(AbstractAdvisorAutoProxyCreator.java:118)
+	at org.springframework.aop.framework.autoproxy.AbstractAdvisorAutoProxyCreator.findEligibleAdvisors(AbstractAdvisorAutoProxyCreator.java:88)
+	at org.springframework.aop.framework.autoproxy.AbstractAdvisorAutoProxyCreator.getAdvicesAndAdvisorsForBean(AbstractAdvisorAutoProxyCreator.java:69)
+	at org.springframework.aop.framework.autoproxy.AbstractAutoProxyCreator.wrapIfNecessary(AbstractAutoProxyCreator.java:330)
+	at org.springframework.aop.framework.autoproxy.AbstractAutoProxyCreator.postProcessAfterInitialization(AbstractAutoProxyCreator.java:293)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsAfterInitialization(AbstractAutowireCapableBeanFactory.java:422)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1583)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:545)
+	... 24 more
+INFO 2018-10-20 23:42:13.062 localhost-startStop-1 [org.springframework.web.context.ContextLoader] - Root WebApplicationContext: initialization started
+INFO 2018-10-20 23:42:13.328 localhost-startStop-1 [org.springframework.web.context.support.XmlWebApplicationContext] - Refreshing Root WebApplicationContext: startup date [Sat Oct 20 23:42:13 CST 2018]; root of context hierarchy
+INFO 2018-10-20 23:42:13.437 localhost-startStop-1 [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [config/spring-core.xml]
+WARN 2018-10-20 23:42:14.640 localhost-startStop-1 [org.springframework.web.context.support.XmlWebApplicationContext] - Exception encountered during context initialization - cancelling refresh attempt
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'demoService' defined in file [F:\workspace\project1\target\project1\WEB-INF\classes\com\test\service\DemoService.class]: Initialization of bean failed; nested exception is java.lang.IllegalArgumentException: Pointcut is not well-formed: expecting 'name pattern' at character position 33
+execution(*com.test.service..*.*(..))
+                                 ^
+
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:553)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:482)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:305)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:301)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:196)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:772)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:834)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:537)
+	at org.springframework.web.context.ContextLoader.configureAndRefreshWebApplicationContext(ContextLoader.java:446)
+	at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:328)
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:107)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:5118)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5641)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:145)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:1015)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:991)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:652)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:712)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:2002)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.IllegalArgumentException: Pointcut is not well-formed: expecting 'name pattern' at character position 33
+execution(*com.test.service..*.*(..))
+                                 ^
+
+	at org.aspectj.weaver.tools.PointcutParser.resolvePointcutExpression(PointcutParser.java:316)
+	at org.aspectj.weaver.tools.PointcutParser.parsePointcutExpression(PointcutParser.java:294)
+	at org.springframework.aop.aspectj.AspectJExpressionPointcut.buildPointcutExpression(AspectJExpressionPointcut.java:207)
+	at org.springframework.aop.aspectj.AspectJExpressionPointcut.checkReadyToMatch(AspectJExpressionPointcut.java:193)
+	at org.springframework.aop.aspectj.AspectJExpressionPointcut.getClassFilter(AspectJExpressionPointcut.java:170)
+	at org.springframework.aop.support.AopUtils.canApply(AopUtils.java:194)
+	at org.springframework.aop.support.AopUtils.canApply(AopUtils.java:248)
+	at org.springframework.aop.support.AopUtils.findAdvisorsThatCanApply(AopUtils.java:280)
+	at org.springframework.aop.framework.autoproxy.AbstractAdvisorAutoProxyCreator.findAdvisorsThatCanApply(AbstractAdvisorAutoProxyCreator.java:118)
+	at org.springframework.aop.framework.autoproxy.AbstractAdvisorAutoProxyCreator.findEligibleAdvisors(AbstractAdvisorAutoProxyCreator.java:88)
+	at org.springframework.aop.framework.autoproxy.AbstractAdvisorAutoProxyCreator.getAdvicesAndAdvisorsForBean(AbstractAdvisorAutoProxyCreator.java:69)
+	at org.springframework.aop.framework.autoproxy.AbstractAutoProxyCreator.wrapIfNecessary(AbstractAutoProxyCreator.java:330)
+	at org.springframework.aop.framework.autoproxy.AbstractAutoProxyCreator.postProcessAfterInitialization(AbstractAutoProxyCreator.java:293)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsAfterInitialization(AbstractAutowireCapableBeanFactory.java:422)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1583)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:545)
+	... 24 more
+ERROR 2018-10-20 23:42:14.671 localhost-startStop-1 [org.springframework.web.context.ContextLoader] - Context initialization failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'demoService' defined in file [F:\workspace\project1\target\project1\WEB-INF\classes\com\test\service\DemoService.class]: Initialization of bean failed; nested exception is java.lang.IllegalArgumentException: Pointcut is not well-formed: expecting 'name pattern' at character position 33
+execution(*com.test.service..*.*(..))
+                                 ^
+
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:553)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:482)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:305)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:301)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:196)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:772)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:834)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:537)
+	at org.springframework.web.context.ContextLoader.configureAndRefreshWebApplicationContext(ContextLoader.java:446)
+	at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:328)
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:107)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:5118)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5641)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:145)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:1015)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:991)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:652)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:712)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:2002)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.IllegalArgumentException: Pointcut is not well-formed: expecting 'name pattern' at character position 33
+execution(*com.test.service..*.*(..))
+                                 ^
+
+	at org.aspectj.weaver.tools.PointcutParser.resolvePointcutExpression(PointcutParser.java:316)
+	at org.aspectj.weaver.tools.PointcutParser.parsePointcutExpression(PointcutParser.java:294)
+	at org.springframework.aop.aspectj.AspectJExpressionPointcut.buildPointcutExpression(AspectJExpressionPointcut.java:207)
+	at org.springframework.aop.aspectj.AspectJExpressionPointcut.checkReadyToMatch(AspectJExpressionPointcut.java:193)
+	at org.springframework.aop.aspectj.AspectJExpressionPointcut.getClassFilter(AspectJExpressionPointcut.java:170)
+	at org.springframework.aop.support.AopUtils.canApply(AopUtils.java:194)
+	at org.springframework.aop.support.AopUtils.canApply(AopUtils.java:248)
+	at org.springframework.aop.support.AopUtils.findAdvisorsThatCanApply(AopUtils.java:280)
+	at org.springframework.aop.framework.autoproxy.AbstractAdvisorAutoProxyCreator.findAdvisorsThatCanApply(AbstractAdvisorAutoProxyCreator.java:118)
+	at org.springframework.aop.framework.autoproxy.AbstractAdvisorAutoProxyCreator.findEligibleAdvisors(AbstractAdvisorAutoProxyCreator.java:88)
+	at org.springframework.aop.framework.autoproxy.AbstractAdvisorAutoProxyCreator.getAdvicesAndAdvisorsForBean(AbstractAdvisorAutoProxyCreator.java:69)
+	at org.springframework.aop.framework.autoproxy.AbstractAutoProxyCreator.wrapIfNecessary(AbstractAutoProxyCreator.java:330)
+	at org.springframework.aop.framework.autoproxy.AbstractAutoProxyCreator.postProcessAfterInitialization(AbstractAutoProxyCreator.java:293)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsAfterInitialization(AbstractAutowireCapableBeanFactory.java:422)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1583)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:545)
+	... 24 more
+INFO 2018-10-20 23:43:17.578 localhost-startStop-1 [org.springframework.web.context.ContextLoader] - Root WebApplicationContext: initialization started
+INFO 2018-10-20 23:43:17.843 localhost-startStop-1 [org.springframework.web.context.support.XmlWebApplicationContext] - Refreshing Root WebApplicationContext: startup date [Sat Oct 20 23:43:17 CST 2018]; root of context hierarchy
+INFO 2018-10-20 23:43:17.937 localhost-startStop-1 [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [config/spring-core.xml]
+WARN 2018-10-20 23:43:19.125 localhost-startStop-1 [org.springframework.web.context.support.XmlWebApplicationContext] - Exception encountered during context initialization - cancelling refresh attempt
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'demoService' defined in file [F:\workspace\project1\target\project1\WEB-INF\classes\com\test\service\DemoService.class]: Initialization of bean failed; nested exception is java.lang.IllegalArgumentException: Pointcut is not well-formed: expecting 'name pattern' at character position 33
+execution(*com.test.service..*.*(..))
+                                 ^
+
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:553)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:482)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:305)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:301)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:196)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:772)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:834)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:537)
+	at org.springframework.web.context.ContextLoader.configureAndRefreshWebApplicationContext(ContextLoader.java:446)
+	at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:328)
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:107)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:5118)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5641)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:145)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:1015)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:991)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:652)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:712)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:2002)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.IllegalArgumentException: Pointcut is not well-formed: expecting 'name pattern' at character position 33
+execution(*com.test.service..*.*(..))
+                                 ^
+
+	at org.aspectj.weaver.tools.PointcutParser.resolvePointcutExpression(PointcutParser.java:316)
+	at org.aspectj.weaver.tools.PointcutParser.parsePointcutExpression(PointcutParser.java:294)
+	at org.springframework.aop.aspectj.AspectJExpressionPointcut.buildPointcutExpression(AspectJExpressionPointcut.java:207)
+	at org.springframework.aop.aspectj.AspectJExpressionPointcut.checkReadyToMatch(AspectJExpressionPointcut.java:193)
+	at org.springframework.aop.aspectj.AspectJExpressionPointcut.getClassFilter(AspectJExpressionPointcut.java:170)
+	at org.springframework.aop.support.AopUtils.canApply(AopUtils.java:194)
+	at org.springframework.aop.support.AopUtils.canApply(AopUtils.java:248)
+	at org.springframework.aop.support.AopUtils.findAdvisorsThatCanApply(AopUtils.java:280)
+	at org.springframework.aop.framework.autoproxy.AbstractAdvisorAutoProxyCreator.findAdvisorsThatCanApply(AbstractAdvisorAutoProxyCreator.java:118)
+	at org.springframework.aop.framework.autoproxy.AbstractAdvisorAutoProxyCreator.findEligibleAdvisors(AbstractAdvisorAutoProxyCreator.java:88)
+	at org.springframework.aop.framework.autoproxy.AbstractAdvisorAutoProxyCreator.getAdvicesAndAdvisorsForBean(AbstractAdvisorAutoProxyCreator.java:69)
+	at org.springframework.aop.framework.autoproxy.AbstractAutoProxyCreator.wrapIfNecessary(AbstractAutoProxyCreator.java:330)
+	at org.springframework.aop.framework.autoproxy.AbstractAutoProxyCreator.postProcessAfterInitialization(AbstractAutoProxyCreator.java:293)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsAfterInitialization(AbstractAutowireCapableBeanFactory.java:422)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1583)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:545)
+	... 24 more
+ERROR 2018-10-20 23:43:19.140 localhost-startStop-1 [org.springframework.web.context.ContextLoader] - Context initialization failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'demoService' defined in file [F:\workspace\project1\target\project1\WEB-INF\classes\com\test\service\DemoService.class]: Initialization of bean failed; nested exception is java.lang.IllegalArgumentException: Pointcut is not well-formed: expecting 'name pattern' at character position 33
+execution(*com.test.service..*.*(..))
+                                 ^
+
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:553)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:482)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:305)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:301)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:196)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:772)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:834)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:537)
+	at org.springframework.web.context.ContextLoader.configureAndRefreshWebApplicationContext(ContextLoader.java:446)
+	at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:328)
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:107)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:5118)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5641)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:145)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:1015)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:991)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:652)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:712)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:2002)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.IllegalArgumentException: Pointcut is not well-formed: expecting 'name pattern' at character position 33
+execution(*com.test.service..*.*(..))
+                                 ^
+
+	at org.aspectj.weaver.tools.PointcutParser.resolvePointcutExpression(PointcutParser.java:316)
+	at org.aspectj.weaver.tools.PointcutParser.parsePointcutExpression(PointcutParser.java:294)
+	at org.springframework.aop.aspectj.AspectJExpressionPointcut.buildPointcutExpression(AspectJExpressionPointcut.java:207)
+	at org.springframework.aop.aspectj.AspectJExpressionPointcut.checkReadyToMatch(AspectJExpressionPointcut.java:193)
+	at org.springframework.aop.aspectj.AspectJExpressionPointcut.getClassFilter(AspectJExpressionPointcut.java:170)
+	at org.springframework.aop.support.AopUtils.canApply(AopUtils.java:194)
+	at org.springframework.aop.support.AopUtils.canApply(AopUtils.java:248)
+	at org.springframework.aop.support.AopUtils.findAdvisorsThatCanApply(AopUtils.java:280)
+	at org.springframework.aop.framework.autoproxy.AbstractAdvisorAutoProxyCreator.findAdvisorsThatCanApply(AbstractAdvisorAutoProxyCreator.java:118)
+	at org.springframework.aop.framework.autoproxy.AbstractAdvisorAutoProxyCreator.findEligibleAdvisors(AbstractAdvisorAutoProxyCreator.java:88)
+	at org.springframework.aop.framework.autoproxy.AbstractAdvisorAutoProxyCreator.getAdvicesAndAdvisorsForBean(AbstractAdvisorAutoProxyCreator.java:69)
+	at org.springframework.aop.framework.autoproxy.AbstractAutoProxyCreator.wrapIfNecessary(AbstractAutoProxyCreator.java:330)
+	at org.springframework.aop.framework.autoproxy.AbstractAutoProxyCreator.postProcessAfterInitialization(AbstractAutoProxyCreator.java:293)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsAfterInitialization(AbstractAutowireCapableBeanFactory.java:422)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1583)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:545)
+	... 24 more
